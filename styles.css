@@ -1,0 +1,47 @@
+a:first-child:hover {
+  color: lightsteelblue;
+  font-weight: bold;
+}
+
+a:nth-child(2):active {
+  color: red;
+  font-weight: italic;
+}
+
+a:nth-child(3):visited {
+  color: yellow;
+}
+
+input:focus {
+  color: green;
+  size: 20px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+ul:first-child {
+  padding: 0;
+}
+
+nav a {
+  color: white;
+}
+
+nav {  
+  background-color: darkblue;
+}
+
+.currentPage:active {
+  background-color: rgb(156, 160, 161);
+}
+
+.hover:hover {
+  background-color: lightblue;
+}
+
+.input:focus {
+  border-color: aquamarine;
+}
